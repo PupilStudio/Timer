@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/ButtonAddMillSecond"
+        android:layout_width="36.0dp"
+        android:layout_height="36.0dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/AddButton"
+        android:minWidth="25px"
+        android:minHeight="25px"/>
+
+    <Button
+        android:id="@+id/ButtonAddSecond"
+        android:layout_width="36.0dp"
+        android:layout_height="36.0dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/AddButton"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+
+    <Button
+        android:id="@+id/ButtonAddMinute"
+        android:layout_width="36.0dp"
+        android:layout_height="36.0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/AddButton"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+
+    <Button
+        android:id="@+id/ButtonMinusHour"
+        android:layout_width="36.0dp"
+        android:layout_height="36.0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/MinusButton"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+
+    <Button
+        android:id="@+id/ButtonMinusMillSecond"
+        android:layout_width="36.0dp"
+        android:layout_height="36.0dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/MinusButton"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/ButtonMinusSecond"
+        android:layout_width="36.0dp"
+        android:layout_height="36.0dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/MinusButton"
+        android:minWidth="25px"
+        android:minHeight="25px"/>
+
+    <Button
+        android:id="@+id/ButtonMinusMinute"
+        android:layout_width="36.0dp"
+        android:layout_height="36.0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/MinusButton"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+
+    <Button
+        android:id="@+id/ButtonAddHour"
+        android:layout_width="36.0dp"
+        android:layout_height="36.0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/AddButton"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+
+    <TextView
+        android:id="@+id/TextViewMillsSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="43.4dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="0\n毫秒"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextViewSecond"
+        android:layout_width="30.9dp"
+        android:layout_height="44.0dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:text="0\n秒"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextViewMinute"
+        android:layout_width="29.7dp"
+        android:layout_height="44.0dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="50dp"
+        android:text="0\n分"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextViewHour"
+        android:layout_width="30.3dp"
+        android:layout_height="42.9dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="0\n时"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/ButtonStart"
+        android:layout_width="159px"
+        android:layout_height="37.1dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="133.1dp"
+        android:background="@drawable/StartButton"
+        
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/ButtonClear"
+        android:layout_width="159px"
+        android:layout_height="37.1dp"
+        android:layout_marginLeft="161px"
+        android:layout_marginTop="133.1dp"
+        android:background="@drawable/ClearButton"
+        
+        android:textColor="#000000" />
+
+</RelativeLayout>
